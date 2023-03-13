@@ -19,6 +19,7 @@ form.addEventListener('submit', function(e){
         
         <div class="p1">
         <img src="${data.avatar_url}" alt="">
+        <h3 class="repo">public repository: ${data.public_repos}</h3>
 
         <div class="foll">
                 <div> <h3>Following: </h3> <h3 class="follows">${data.following}</h3> </div>
